@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262FA69A1CCAA59700E22AB8 /* SiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA6991CCAA59700E22AB8 /* SiteViewController.m */; };
 		32EF43571CCA8CC600A17B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF43561CCA8CC600A17B21 /* main.m */; };
 		32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF43591CCA8CC600A17B21 /* AppDelegate.m */; };
 		32EF435D1CCA8CC600A17B21 /* BoroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF435C1CCA8CC600A17B21 /* BoroughViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262FA6981CCAA59700E22AB8 /* SiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteViewController.h; sourceTree = "<group>"; };
+		262FA6991CCAA59700E22AB8 /* SiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteViewController.m; sourceTree = "<group>"; };
 		32EF43521CCA8CC600A17B21 /* Kidedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kidedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EF43561CCA8CC600A17B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32EF43581CCA8CC600A17B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				32EF43591CCA8CC600A17B21 /* AppDelegate.m */,
 				32EF435B1CCA8CC600A17B21 /* BoroughViewController.h */,
 				32EF435C1CCA8CC600A17B21 /* BoroughViewController.m */,
+				262FA6981CCAA59700E22AB8 /* SiteViewController.h */,
+				262FA6991CCAA59700E22AB8 /* SiteViewController.m */,
 				32EF435E1CCA8CC600A17B21 /* Main.storyboard */,
 				32EF43611CCA8CC600A17B21 /* Assets.xcassets */,
 				32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 				32EF435D1CCA8CC600A17B21 /* BoroughViewController.m in Sources */,
 				32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */,
 				32EF43571CCA8CC600A17B21 /* main.m in Sources */,
+				262FA69A1CCAA59700E22AB8 /* SiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
