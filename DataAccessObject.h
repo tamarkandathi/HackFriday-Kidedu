@@ -10,6 +10,9 @@
 
 @interface DataAccessObject : NSObject
 
+@property (nonatomic, strong) NSMutableArray *afterSchoolPrograms;
+
+
 - (void)fetchNewYorkCityProgramData;
 + (instancetype)sharedInstance;
 

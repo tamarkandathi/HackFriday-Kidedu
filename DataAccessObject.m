@@ -7,7 +7,7 @@
 //
 
 #import "DataAccessObject.h"
-@import UIKit;
+#import "AfterSchoolProgram.h"
 
 @implementation DataAccessObject
 
@@ -30,18 +30,27 @@
             //handle error here
             NSLog(@"Error -- %@, %@",error.userInfo, error.localizedDescription);
         } else {
-            NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            self.afterSchoolPrograms        = [NSMutableArray new];
             
-//            for (NSString *value in dictionary) {
-//                
-//                
-//            }
+            for (NSDictionary *dictionary in array) {
+                if ([[dictionary valueForKey:@"program_type"] isEqualToString:@"After-School Programs"]) {
+                    //create AfterSchoolProgram objects using the dictionary... and add that object to thew newYorkData array
+                    AfterSchoolProgram *program = [[AfterSchoolProgram alloc] init];
+                    program.borough = [dictionary valueForKey:@"borough_community"];
+                    program.siteName = [dictionary valueForKey:@"site_name"];
+                    program.programName = [dictionary valueForKey:@"program"];
+                    program.gradeLevel   = [dictionary valueForKey:@"grade_level_age_group"];
+                    program.contactNumber = [dictionary valueForKey:@"contact_number"];
+                    [self.afterSchoolPrograms addObject:program];
+                }
+            }
 
-            NSLog(@"%@",dictionary);
-            
         }
     }] resume];
 }
+
+
 
 
 @end
