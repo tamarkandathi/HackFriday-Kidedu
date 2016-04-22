@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DataAccessObject.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) DataAccessObject *dao;
 
 @end
 
@@ -16,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.dao = [DataAccessObject sharedInstance];
+    [self.dao fetchNewYorkCityProgramData];
 }
 
 - (void)didReceiveMemoryWarning {
