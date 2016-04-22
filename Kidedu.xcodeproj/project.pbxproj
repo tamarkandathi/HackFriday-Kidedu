@@ -14,6 +14,7 @@
 		32EF43621CCA8CC600A17B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43611CCA8CC600A17B21 /* Assets.xcassets */; };
 		32EF43651CCA8CC600A17B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */; };
 		32EF436D1CCA8EE100A17B21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32EF436C1CCA8EE100A17B21 /* .gitignore */; };
+		43BE513B1CCAA2D900BF22CA /* AfterSchoolProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BE513A1CCAA2D900BF22CA /* AfterSchoolProgram.m */; };
 		43D38B251CCA94CF007BDC8A /* DataAccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D38B241CCA94CF007BDC8A /* DataAccessObject.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		32EF43641CCA8CC600A17B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EF43661CCA8CC600A17B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32EF436C1CCA8EE100A17B21 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		43BE51391CCAA2D900BF22CA /* AfterSchoolProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterSchoolProgram.h; sourceTree = "<group>"; };
+		43BE513A1CCAA2D900BF22CA /* AfterSchoolProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterSchoolProgram.m; sourceTree = "<group>"; };
 		43D38B231CCA94CF007BDC8A /* DataAccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccessObject.h; sourceTree = "<group>"; };
 		43D38B241CCA94CF007BDC8A /* DataAccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccessObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 			children = (
 				43D38B231CCA94CF007BDC8A /* DataAccessObject.h */,
 				43D38B241CCA94CF007BDC8A /* DataAccessObject.m */,
+				43BE51391CCAA2D900BF22CA /* AfterSchoolProgram.h */,
+				43BE513A1CCAA2D900BF22CA /* AfterSchoolProgram.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BE513B1CCAA2D900BF22CA /* AfterSchoolProgram.m in Sources */,
 				43D38B251CCA94CF007BDC8A /* DataAccessObject.m in Sources */,
 				32EF435D1CCA8CC600A17B21 /* ViewController.m in Sources */,
 				32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */,
