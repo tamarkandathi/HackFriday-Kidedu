@@ -14,6 +14,7 @@
 		32EF43621CCA8CC600A17B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43611CCA8CC600A17B21 /* Assets.xcassets */; };
 		32EF43651CCA8CC600A17B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */; };
 		32EF436D1CCA8EE100A17B21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32EF436C1CCA8EE100A17B21 /* .gitignore */; };
+		32EF43701CCA958E00A17B21 /* AfterSchoolProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF436F1CCA958E00A17B21 /* AfterSchoolProgram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		32EF43641CCA8CC600A17B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EF43661CCA8CC600A17B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32EF436C1CCA8EE100A17B21 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		32EF436E1CCA958E00A17B21 /* AfterSchoolProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterSchoolProgram.h; sourceTree = "<group>"; };
+		32EF436F1CCA958E00A17B21 /* AfterSchoolProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterSchoolProgram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				32EF43581CCA8CC600A17B21 /* AppDelegate.h */,
 				32EF43591CCA8CC600A17B21 /* AppDelegate.m */,
+				32EF436E1CCA958E00A17B21 /* AfterSchoolProgram.h */,
+				32EF436F1CCA958E00A17B21 /* AfterSchoolProgram.m */,
 				32EF435B1CCA8CC600A17B21 /* ViewController.h */,
 				32EF435C1CCA8CC600A17B21 /* ViewController.m */,
 				32EF435E1CCA8CC600A17B21 /* Main.storyboard */,
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EF435D1CCA8CC600A17B21 /* ViewController.m in Sources */,
+				32EF43701CCA958E00A17B21 /* AfterSchoolProgram.m in Sources */,
 				32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */,
 				32EF43571CCA8CC600A17B21 /* main.m in Sources */,
 			);
