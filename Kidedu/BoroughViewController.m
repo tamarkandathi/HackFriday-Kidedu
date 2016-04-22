@@ -6,13 +6,29 @@
 //  Copyright © 2016 Tamar Kandathi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BoroughViewController.h"
 
-@interface ViewController ()
+@interface BoroughViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BoroughViewController
+
+- (IBAction)brooklynButtonTouchUpInside:(id)sender {
+}
+
+- (IBAction)queensButtonTouchUpInside:(id)sender {
+}
+
+- (IBAction)statenIslandTouchUpInside:(id)sender {
+}
+
+- (IBAction)manhattanButtonTouchUpInside:(id)sender {
+}
+
+
+- (IBAction)bronxButtonTouchUpInside:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

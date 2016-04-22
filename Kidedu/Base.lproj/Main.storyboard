@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Borough View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BoroughViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,105 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKk-5U-9w3" userLabel="Brooklyn">
+                                <rect key="frame" x="480" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ayf-bf-tQh"/>
+                                    <constraint firstAttribute="height" constant="100" id="ieT-U4-TVQ"/>
+                                </constraints>
+                                <state key="normal" title="Brooklyn" backgroundImage="brooklyn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="brooklynButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uOp-48-yJe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcG-XI-pDQ" userLabel="Bronx">
+                                <rect key="frame" x="20" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="s7o-N7-FfG"/>
+                                    <constraint firstAttribute="width" constant="100" id="xVg-FK-GnZ"/>
+                                </constraints>
+                                <state key="normal" title="Bronx" backgroundImage="bronx">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bronxButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vr2-2D-oYh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIm-ti-PLc" userLabel="Staten Island">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DSz-gh-xtg"/>
+                                    <constraint firstAttribute="width" constant="100" id="lng-4z-XkU"/>
+                                </constraints>
+                                <state key="normal" title="Staten Island" backgroundImage="staten_island">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="statenIslandTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Js2-C2-jkj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWr-8O-voS" userLabel="Queens">
+                                <rect key="frame" x="480" y="480" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SyA-4M-srN"/>
+                                    <constraint firstAttribute="width" constant="100" id="nxY-wC-O6C"/>
+                                </constraints>
+                                <state key="normal" title="Queens" backgroundImage="queens">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="queensButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbd-YX-xnW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-NO-EEb" userLabel="Manhattan">
+                                <rect key="frame" x="20" y="492" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4mi-hA-IEW"/>
+                                    <constraint firstAttribute="height" constant="100" id="Atv-V7-sM0"/>
+                                </constraints>
+                                <state key="normal" title="Manhattan" backgroundImage="manhattan">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="manhattanButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rw2-76-JqJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sWr-8O-voS" secondAttribute="trailing" constant="20" id="1s8-rT-rqy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vAd-NO-EEb" secondAttribute="bottom" constant="8" id="887-qi-mEB"/>
+                            <constraint firstItem="JcG-XI-pDQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="F0y-79-fgM"/>
+                            <constraint firstItem="JcG-XI-pDQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PtM-a8-5Jv"/>
+                            <constraint firstItem="iKk-5U-9w3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="WEm-9H-xqe"/>
+                            <constraint firstItem="WIm-ti-PLc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bUV-WI-1Ci"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sWr-8O-voS" secondAttribute="bottom" constant="20" id="gps-B7-chL"/>
+                            <constraint firstAttribute="trailing" secondItem="iKk-5U-9w3" secondAttribute="trailing" constant="20" id="nva-sG-pyb"/>
+                            <constraint firstItem="WIm-ti-PLc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yNM-8m-o7T"/>
+                            <constraint firstItem="vAd-NO-EEb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="zVv-qe-hbk"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bronxButton" destination="JcG-XI-pDQ" id="XkO-Ia-hF9"/>
+                        <outlet property="brooklynButton" destination="iKk-5U-9w3" id="86C-ZX-ngS"/>
+                        <outlet property="manhattanButton" destination="vAd-NO-EEb" id="pc6-3P-oXu"/>
+                        <outlet property="queensButton" destination="sWr-8O-voS" id="qUl-Ao-nsM"/>
+                        <outlet property="statenIslandButton" destination="WIm-ti-PLc" id="mwN-Nd-aqk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="325"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bronx" width="3503" height="2627"/>
+        <image name="brooklyn" width="1717" height="883"/>
+        <image name="manhattan" width="1920" height="1200"/>
+        <image name="queens" width="2560" height="1600"/>
+        <image name="staten_island" width="3378" height="2000"/>
+    </resources>
 </document>
