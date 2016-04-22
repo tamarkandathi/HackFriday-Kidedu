@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32EF43571CCA8CC600A17B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF43561CCA8CC600A17B21 /* main.m */; };
+		32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF43591CCA8CC600A17B21 /* AppDelegate.m */; };
+		32EF435D1CCA8CC600A17B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF435C1CCA8CC600A17B21 /* ViewController.m */; };
+		32EF43601CCA8CC600A17B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EF435E1CCA8CC600A17B21 /* Main.storyboard */; };
+		32EF43621CCA8CC600A17B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43611CCA8CC600A17B21 /* Assets.xcassets */; };
+		32EF43651CCA8CC600A17B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */; };
+		32EF436D1CCA8EE100A17B21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32EF436C1CCA8EE100A17B21 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32EF43521CCA8CC600A17B21 /* Kidedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kidedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EF43561CCA8CC600A17B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32EF43581CCA8CC600A17B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32EF43591CCA8CC600A17B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32EF435B1CCA8CC600A17B21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32EF435C1CCA8CC600A17B21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32EF435F1CCA8CC600A17B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32EF43611CCA8CC600A17B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32EF43641CCA8CC600A17B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32EF43661CCA8CC600A17B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EF436C1CCA8EE100A17B21 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EF434F1CCA8CC600A17B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EF43491CCA8CC600A17B21 = {
+			isa = PBXGroup;
+			children = (
+				32EF436C1CCA8EE100A17B21 /* .gitignore */,
+				32EF43541CCA8CC600A17B21 /* Kidedu */,
+				32EF43531CCA8CC600A17B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EF43531CCA8CC600A17B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EF43521CCA8CC600A17B21 /* Kidedu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EF43541CCA8CC600A17B21 /* Kidedu */ = {
+			isa = PBXGroup;
+			children = (
+				32EF43581CCA8CC600A17B21 /* AppDelegate.h */,
+				32EF43591CCA8CC600A17B21 /* AppDelegate.m */,
+				32EF435B1CCA8CC600A17B21 /* ViewController.h */,
+				32EF435C1CCA8CC600A17B21 /* ViewController.m */,
+				32EF435E1CCA8CC600A17B21 /* Main.storyboard */,
+				32EF43611CCA8CC600A17B21 /* Assets.xcassets */,
+				32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */,
+				32EF43661CCA8CC600A17B21 /* Info.plist */,
+				32EF43551CCA8CC600A17B21 /* Supporting Files */,
+			);
+			path = Kidedu;
+			sourceTree = "<group>";
+		};
+		32EF43551CCA8CC600A17B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32EF43561CCA8CC600A17B21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EF43511CCA8CC600A17B21 /* Kidedu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EF43691CCA8CC600A17B21 /* Build configuration list for PBXNativeTarget "Kidedu" */;
+			buildPhases = (
+				32EF434E1CCA8CC600A17B21 /* Sources */,
+				32EF434F1CCA8CC600A17B21 /* Frameworks */,
+				32EF43501CCA8CC600A17B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kidedu;
+			productName = Kidedu;
+			productReference = 32EF43521CCA8CC600A17B21 /* Kidedu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EF434A1CCA8CC600A17B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tamar Kandathi";
+				TargetAttributes = {
+					32EF43511CCA8CC600A17B21 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 32EF434D1CCA8CC600A17B21 /* Build configuration list for PBXProject "Kidedu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EF43491CCA8CC600A17B21;
+			productRefGroup = 32EF43531CCA8CC600A17B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EF43511CCA8CC600A17B21 /* Kidedu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EF43501CCA8CC600A17B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EF436D1CCA8EE100A17B21 /* .gitignore in Resources */,
+				32EF43651CCA8CC600A17B21 /* LaunchScreen.storyboard in Resources */,
+				32EF43621CCA8CC600A17B21 /* Assets.xcassets in Resources */,
+				32EF43601CCA8CC600A17B21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EF434E1CCA8CC600A17B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EF435D1CCA8CC600A17B21 /* ViewController.m in Sources */,
+				32EF435A1CCA8CC600A17B21 /* AppDelegate.m in Sources */,
+				32EF43571CCA8CC600A17B21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32EF435E1CCA8CC600A17B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EF435F1CCA8CC600A17B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32EF43631CCA8CC600A17B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EF43641CCA8CC600A17B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32EF43671CCA8CC600A17B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32EF43681CCA8CC600A17B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EF436A1CCA8CC600A17B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kidedu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.Kidedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32EF436B1CCA8CC600A17B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kidedu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.Kidedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EF434D1CCA8CC600A17B21 /* Build configuration list for PBXProject "Kidedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EF43671CCA8CC600A17B21 /* Debug */,
+				32EF43681CCA8CC600A17B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EF43691CCA8CC600A17B21 /* Build configuration list for PBXNativeTarget "Kidedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EF436A1CCA8CC600A17B21 /* Debug */,
+				32EF436B1CCA8CC600A17B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EF434A1CCA8CC600A17B21 /* Project object */;
+}
